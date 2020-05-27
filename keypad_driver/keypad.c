@@ -18,6 +18,7 @@ void keypad_init(){
 	keypadPORT = 0xFF;										//enable the pullup for all pins
 }
 /*****************************************************************************************************************************/
+//check if there is a pressed key
 char keypad_check(){
 	int i =0;
 	int j =0;
@@ -67,7 +68,8 @@ char keypad_check(){
 	return 'X';												//if no key is pressed, return X
 }
 /*****************************************************************************************************************************/
-char keypad_getkey()										//check if there is a pressed key
+//print out the pressed key
+char keypad_getkey()										
 {
 	char key_pressed;
 	key_pressed = 'X';
