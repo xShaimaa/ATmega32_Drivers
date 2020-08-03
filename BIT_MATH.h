@@ -1,3 +1,10 @@
+/*
+ * BIT_MATH.h
+ *
+ * Created: 03-Aug-20
+ *  Author: shimo
+ */
+ 
 #ifndef BIT_MATH_H
 #define BIT_MATH_H
 
