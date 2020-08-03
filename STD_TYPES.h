@@ -10,9 +10,9 @@
 
 //unsigned data types
 typedef unsigned char		u8_t ;
-typedef unsigned short int    u16_t;
+typedef unsigned short int      u16_t;
 typedef unsigned long int 	u32_t;
-typedef unsigned long long    u64_t;
+typedef unsigned long long      u64_t;
 
 //signed data types
 typedef signed char		s8_t ;
