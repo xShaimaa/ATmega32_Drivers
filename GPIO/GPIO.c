@@ -104,7 +104,7 @@ void GPIO_voidSetPinVal(u8 port_name, u8 pin_num, u8 val)
 }
 
 
-u8_t GPIO_u8ReadPin(u8 port_name, u8 pin_num)
+u8 GPIO_u8ReadPin(u8 port_name, u8 pin_num)
 {
 	switch (port_name){
 		case PORTA:
@@ -157,7 +157,7 @@ void GPIO_voidSetPortVal(u8 port_name, u8 val)
 	}
 }
 
-u8_t GPIO_u8ReadPort(u8 port_name)
+u8 GPIO_u8ReadPort(u8 port_name)
 {
 	switch (port_name){
 		case PORTA:

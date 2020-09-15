@@ -79,7 +79,7 @@ void GPIO_voidSetPinVal(u8 port_name, u8 pin_num, u8 val);
 * Parameters  : PORT (PORTA -> D) - PIN (PIN0 -> 8)
 * Return type : u8(pin value)
 ******************************************************************************/
-u8_t GPIO_u8ReadPin(u8 port_name, u8 pin_num);
+u8 GPIO_u8ReadPin(u8 port_name, u8 pin_num);
 
 /******************************************************************************
 * Description : setting the PORT Direction
@@ -100,6 +100,6 @@ void GPIO_voidSetPortVal(u8 port_name, u8 val);
 * Parameters  : PORT (PORTA -> D)
 * Return type : u8(pin value)
 ******************************************************************************/
-u8_t GPIO_u8ReadPort(u8 port_name);
+u8 GPIO_u8ReadPort(u8 port_name);
 
 #endif

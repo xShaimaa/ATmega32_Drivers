@@ -9,18 +9,18 @@
 #define STD_TYPES_H_
 
 //unsigned data types
-typedef unsigned char		u8_t ;
-typedef unsigned short int      u16_t;
-typedef unsigned long int 	u32_t;
-typedef unsigned long long      u64_t;
+typedef unsigned char		u8 ;
+typedef unsigned short int  u16;
+typedef unsigned long int 	u32;
+typedef unsigned long long  u64;
 
 //signed data types
-typedef signed char		s8_t ;
-typedef signed short int  	s16_t;
-typedef signed long int 	s32_t;
-typedef signed long long 	s64_t;
+typedef signed char			s8 ;
+typedef signed short int  	s16;
+typedef signed long int 	s32;
+typedef signed long long 	s64;
 
-typedef float  			f32_t;
-typedef double 			f64_t;
+typedef float  				f32;
+typedef double 				f64;
 
 #endif
