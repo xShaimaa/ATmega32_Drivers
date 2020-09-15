@@ -12,7 +12,7 @@
 #include "GPIO.h"
 
 
-void GPIO_voidSetPinDir(u8_t port_name, u8_t pin_num, u8_t status)
+void GPIO_voidSetPinDir(u8 port_name, u8 pin_num, u8 status)
 {
 	switch (port_name){
 		case PORTA:
@@ -58,7 +58,7 @@ void GPIO_voidSetPinDir(u8_t port_name, u8_t pin_num, u8_t status)
 }
 
 
-void GPIO_voidSetPinVal(u8_t port_name, u8_t pin_num, u8_t val)
+void GPIO_voidSetPinVal(u8 port_name, u8 pin_num, u8 val)
 {
 	switch (port_name){
 		case PORTA:
@@ -104,7 +104,7 @@ void GPIO_voidSetPinVal(u8_t port_name, u8_t pin_num, u8_t val)
 }
 
 
-u8_t GPIO_u8ReadPin(u8_t port_name, u8_t pin_num)
+u8_t GPIO_u8ReadPin(u8 port_name, u8 pin_num)
 {
 	switch (port_name){
 		case PORTA:
@@ -123,7 +123,7 @@ u8_t GPIO_u8ReadPin(u8_t port_name, u8_t pin_num)
 }
 
 
-void GPIO_voidSetPortDir(u8_t port_name, u8_t status)
+void GPIO_voidSetPortDir(u8 port_name, u8 status)
 {
 	switch (port_name){
 		case PORTA:
@@ -140,7 +140,7 @@ void GPIO_voidSetPortDir(u8_t port_name, u8_t status)
 	}
 }
 
-void GPIO_voidSetPortVal(u8_t port_name, u8_t val)
+void GPIO_voidSetPortVal(u8 port_name, u8 val)
 {
 	switch (port_name){
 		case PORTA:
@@ -157,7 +157,7 @@ void GPIO_voidSetPortVal(u8_t port_name, u8_t val)
 	}
 }
 
-u8_t GPIO_u8ReadPort(u8_t port_name)
+u8_t GPIO_u8ReadPort(u8 port_name)
 {
 	switch (port_name){
 		case PORTA:

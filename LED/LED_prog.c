@@ -6,7 +6,7 @@
 #include "STD_TYPES.h"
 #include "BIT_MATH.h"
 
-#include "GPIO_interface.h"
+#include "GPIO.h"
 
 #include "LED_private.h"
 #include "LED_config.h"
@@ -19,7 +19,7 @@ void LED_voidInit(u8 Copy_u8PORT, u8 Copy_u8PIN)
 	GPIO_voidSetPinDir(Copy_u8PORT, Copy_u8PIN, OUTPUT);
 	
 	/* setting the initial value as LOW */
-	MGPIO_VoidSetPinVal(Copy_u8PORT, Copy_u8PIN, LOW);
+	GPIO_VoidSetPinVal(Copy_u8PORT, Copy_u8PIN, LOW);
 }
 
 /* control the state of an LED */
