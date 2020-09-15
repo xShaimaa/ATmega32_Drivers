@@ -75,6 +75,13 @@ void GPIO_voidSetPinDir(u8 port_name, u8 pin_num, u8 status);
 void GPIO_voidSetPinVal(u8 port_name, u8 pin_num, u8 val);
 
 /******************************************************************************
+* Description : toggling the PIN Value
+* Parameters  : PORT (PORTA -> D) - PIN (PIN0 -> 8)
+* Return type : void
+******************************************************************************/
+void GPIO_voidTogPin(u8 port_name, u8 pin_num)
+
+/******************************************************************************
 * Description : reading the PIN value
 * Parameters  : PORT (PORTA -> D) - PIN (PIN0 -> 8)
 * Return type : u8(pin value)

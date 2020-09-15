@@ -103,6 +103,27 @@ void GPIO_voidSetPinVal(u8 port_name, u8 pin_num, u8 val)
 	}
 }
 
+void GPIO_voidTogPin(u8 port_name, u8 pin_num)
+{
+	switch (port_name){
+		case PORTA:
+				TOG_BIT(GPIO_PORTA, pin_num);
+				break; 	
+		
+		case PORTB:
+				TOG_BIT(GPIO_PORTB, pin_num);
+				break;	
+		
+		case PORTC:
+				TOG_BIT(GPIO_PORTC, pin_num);
+				break;	
+		
+		case PORTD:
+				TOG_BIT(GPIO_PORTD, pin_num);
+				break;	
+	}
+}
+
 
 u8 GPIO_u8ReadPin(u8 port_name, u8 pin_num)
 {
